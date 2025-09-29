@@ -20,7 +20,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements-dev.txt
     - name: Run flake8
-      run: flake8 .
+      run: flake8 . --exclude venv
     - name: Run pytest
       run: pytest -q
     - name: Bandit security scan
