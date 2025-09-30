@@ -1,6 +1,10 @@
 # tests/test_logic_utils.py
-import os
-from engine.logic_utils import save_json, load_json, parse_timestamp, jaccard_similarity
+from engine.logic_utils import (
+    save_json,
+    load_json,
+    parse_timestamp,
+    jaccard_similarity,
+)
 
 
 def test_save_and_load_json(tmp_path):
