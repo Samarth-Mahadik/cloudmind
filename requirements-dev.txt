@@ -1,0 +1,11 @@
+pytest
+pytest-mock
+boto3
+moto
+flake8
+black
+bandit
+pip-audit
+networkx
+matplotlib
+psutil
